@@ -1,0 +1,29 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: crimson;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{from {box-shadow: 1px 1px 50px rgb(223, 203, 246);}
+ to{box-shadow: 1px 1px 50px rgb(113, 7, 234);}
+}
+
+#heading{
+    background : rgb(247, 132, 197);
+}
+
+#button{
+    background : rgb(63, 1, 43);
+}
